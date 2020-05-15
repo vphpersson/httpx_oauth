@@ -20,7 +20,7 @@ class RequestTokenResponse:
 
 
 @dataclass
-class OAuthV1Auth(Auth):
+class OAuthAuth(Auth):
     requires_request_body: ClassVar[bool] = True
 
     consumer_key: str
