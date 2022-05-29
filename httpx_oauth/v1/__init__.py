@@ -8,8 +8,7 @@ from base64 import b64encode
 from hmac import new as hmac_new
 from itertools import chain
 
-from httpx import Auth
-from httpx._models import Request, Response, URL, QueryParams
+from httpx import Auth, QueryParams, Request, Response, URL
 
 
 @dataclass
